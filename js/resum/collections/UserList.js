@@ -1,0 +1,1 @@
+define(["jquery","backbone","models/UserModel"],function(e,n,o){var d=n.Collection.extend({model:o});return d});

@@ -1,0 +1,1 @@
+define(["jquery","backbone","models/UserModel","views/UserView","collections/UserList"],function(e,n,o,i,r){var t=n.Router.extend({initialize:function(){n.history.start()},routes:{"":"home"},home:function(){var e=(new o).set({firstname:"Greg",lastname:"Franko",email:"example@gmail.com",phone:"703-243-7371"}),n=new r([e]),t=new i({collection:n});t.render()}});return t});
